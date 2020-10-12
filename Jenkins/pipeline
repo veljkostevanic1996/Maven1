@@ -10,7 +10,7 @@ pipeline{
                 sh 'cd'
                 sh 'cd /home/vstevanic/Maven1'
                 script{
-                    instalMvn.instal()
+                    installMvn.install()
                 }
             }
         }
