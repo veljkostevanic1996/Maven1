@@ -12,7 +12,7 @@ pipeline{
 
                 script{
 
-                   //installMvn.install()
+                   installMvn.install()
                    echo installMvn.install()
                 }
             }
