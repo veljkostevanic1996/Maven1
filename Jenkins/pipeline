@@ -8,7 +8,7 @@ pipeline{
 
             steps{
 
-                script{
+                withMaven{
 
                    installMvn.install()
                    //echo installMvn.install()
