@@ -1,0 +1,15 @@
+pipeline{
+
+    agent any
+    stages{
+
+        stage('mvn install'){
+
+            steps{
+                sh 'cd'
+                sh '/home/vstevanic/Maven1'
+                sh 'mvn clar install'
+            }
+        }
+    }
+}
