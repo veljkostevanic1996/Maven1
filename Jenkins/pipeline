@@ -7,8 +7,6 @@ pipeline{
         stage('mvn install'){
 
             steps{
-                sh 'cd'
-                sh 'cd /home/vstevanic/Maven1'
                 sh 'mvn clean install'
                 script{
 
