@@ -8,9 +8,11 @@ pipeline{
 
             steps{
 
-                withMaven{
-
-                   installMvn.install()
+                script{
+                   sh 'cd'
+                   sh 'cd /home/vstevanic/Maven1'
+                   sh 'mvn install'
+                   //installMvn.install()
                    //echo installMvn.install()
                 }
             }
