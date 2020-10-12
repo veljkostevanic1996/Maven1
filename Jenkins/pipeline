@@ -10,7 +10,7 @@ pipeline{
 
                 withMaven{
                    sh 'cd'
-                   sh '/home/vstevanic/Maven1'
+                   sh 'sudo /home/vstevanic/Maven1'
                    sh 'mvn install'
                    //installMvn.install()
                    //echo installMvn.install()
