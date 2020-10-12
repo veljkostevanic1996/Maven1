@@ -7,11 +7,11 @@ pipeline{
         stage('mvn install'){
 
             steps{
-                sh 'mvn install'
-                script{
 
-                   installMvn.install()
-                   echo installMvn.install()
+                withMaven{
+                   sh 'mvn clean install'
+                   //installMvn.install()
+                   //echo installMvn.install()
                 }
             }
         }
