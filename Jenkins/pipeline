@@ -11,9 +11,8 @@ pipeline{
                 script{
                    sh 'cd'
                    sh 'cd /home/vstevanic/Maven1'
-                   sh 'mvn install'
+                   sh 'mvn clean install'
                    //installMvn.install()
-                   //echo installMvn.install()
                 }
             }
         }
