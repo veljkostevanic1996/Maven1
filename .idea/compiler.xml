@@ -3,8 +3,8 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile name="Annotation profile for Maven1" enabled="true">
-        <sourceOutputDir name="../../Maven1/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../Maven1/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="bild/generated-sources/annotations" />
+        <sourceTestOutputDir name="bild/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Maven1" />
       </profile>
