@@ -16,7 +16,7 @@ pipeline{
         stage('mvn install'){
 
             steps{
-                sh cd && cd /home/vstevanic/Maven1
+                sh 'cd' && 'cd /home/vstevanic/Maven1'
                 withMaven{
                    sh installMvn.install()
                 }
