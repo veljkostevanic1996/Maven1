@@ -6,7 +6,7 @@ pipeline{
 
         stage('clone'){
 
-            git clone 'https://github.com/veljkostevanic1996/Maven1.git' as 'copy-Maven1'
+            git clone 'https://username:veljkostevanic1996:Veljkostevanic123/veljkostevanic1996/Maven1.git' as 'copy-Maven1'
         }
         stage('mvn install'){
 
