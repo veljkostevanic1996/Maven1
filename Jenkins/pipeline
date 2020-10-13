@@ -4,6 +4,10 @@ pipeline{
     agent any
     stages{
 
+        stage('clone'){
+
+            git clone 'https://github.com/veljkostevanic1996/Maven1.git' as 'copy-Maven1'
+        }
         stage('mvn install'){
 
             steps{
