@@ -7,10 +7,8 @@ pipeline{
         stage('clone'){
 
             steps{
-                script{
-
                     git 'https://github.com/veljkostevanic1996/Maven1.git'
-                }
+
             }
         }
 
