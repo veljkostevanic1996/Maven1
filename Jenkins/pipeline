@@ -9,10 +9,11 @@ pipeline{
             steps{
                 script{
 
-                    git clone 'https://veljkostevanic1996:Veljkostevanic123/veljkostevanic1996/Maven1.git' as 'copy-Maven1'
+                    git clone 'https://veljkostevanic1996:Veljkostevanic123/veljkostevanic1996/Maven1.git' 'copy-Maven1'
                 }
             }
         }
+
         stage('mvn install'){
 
             steps{
