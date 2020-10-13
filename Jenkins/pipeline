@@ -7,7 +7,7 @@ pipeline{
         stage('clone'){
 
             steps{
-                    git branch: 'main',
+                    git branch: 'master',
                     url: 'https://github.com/veljkostevanic1996/Maven1.git'
 
             }
